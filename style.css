@@ -1,0 +1,76 @@
+
+.welcome {
+    text-align: right;
+    font-family: "american typewriter";
+    color:rgb(103, 94, 73);
+    margin: 0;
+    padding:0;
+    border: 0;
+}
+
+.myface {
+    border-radius: 50px;
+    height: 300px;
+    width: 200px;
+} /*these styles apply to my face image*/
+
+body {
+    background-image: url("books.png");
+    font-size: 30px;
+    color: black;
+    text-align: right;
+    font-family: "american typewriter";
+}/*this image spreads over the entire page*/
+
+.footerstyle {
+    text-align: center;
+    color:maroon;
+    font-size: 27px;
+    font-family: "american typewriter", papyrus;
+}
+
+.infoboxes{
+  font-size: 22px;
+  margin-left: 1300px;
+  text-align: justify;
+  color: antiquewhite;
+  padding: 5px;
+  width: 500px;
+  height: 140px;
+  background: rgb(85, 53, 11);
+} /*i reuse this style box so they match eachother*/
+
+h3 {
+    text-decoration-line: underline;
+    margin-bottom: 0px;
+}
+
+link {
+    /* unvisited link */
+a:link {
+    color: blue;
+  }
+  
+  /* visited link */
+  a:visited {
+    color:olivedrab;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color:olivedrab;
+    font-size:30px ;
+  }
+  
+  /* selected link */
+  a:active {
+    color: olivedrab;
+  }
+}
+
+
+
+p {
+    margin-left: 650px;
+    text-align: left;
+} /*I keep the left margin large so it's not covered by the background image of the books*/
